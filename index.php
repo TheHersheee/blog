@@ -29,6 +29,6 @@
         позволяет зафиксировать измененную версию в GitK
     </p>
     <hr>
-    <footer>Copyright 2021 TheHersheee</footer>
+    <footer>Copyright © 2021 TheHersheee</footer>
 </body>
 </html>
