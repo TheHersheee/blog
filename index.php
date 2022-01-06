@@ -1,8 +1,14 @@
 <?php
 
+$posts = [
+    'variable',
+    'curl',
+    'telnet',
+    'git',
+];
+
 require('./header.php');
-require('./posts/variable.php');
-require('./posts/curl.php');
-require('./posts/telnet.php');
-require('./posts/git.php');
+foreach($posts as $post){
+    require("./posts/{$post}.php");
+}
 require('./footer.php');
